@@ -1,0 +1,63 @@
+@import url(https://fonts.googleapis.com/css?family=Lora:400,700&subset=latin,cyrillic);
+*{
+  padding: 0;
+  margin: 0;
+}
+#root{
+  font-family: 'Lora', serif;
+  font-size: 25px;
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: auto;
+  background-image: url("pictures/background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  margin: 0;
+  display: flex;
+  background-color: blueviolet;
+}
+.inputs .inputForm{
+  color: #5f2266;
+  font-size: 25px;
+  font-family: 'Lora', serif;
+  display: flex;
+  flex-direction: column;
+  padding: 0 10px ;
+}
+.inputLabel{
+  display: flex;
+  flex-direction: column;
+}
+.selects{
+  background-color: white;
+  flex-wrap: wrap;
+}
+.inputs{
+  margin: 15px;
+}
+button{
+  padding: 0px 10px ;
+  margin: 15px;
+  color: #5f2266;
+  font-size: 25px;
+  font-family: 'Lora', serif;
+}
+#dataForm{
+  flex-wrap: wrap;
+  flex-direction: column;
+  background-color: rgba(223, 3, 252, 0.2);
+  flex: 1;
+  box-shadow: 0 0 10px 5px rgba(221, 221, 221, 1);
+  border-radius: 10px;
+}
+#chart{
+  flex: 3;
+}
+#answer{
+  margin: 15px;
+  display: flex;
+  flex-direction: column;
+}
